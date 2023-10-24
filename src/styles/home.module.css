@@ -1,0 +1,40 @@
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+}
+
+.searchBox {
+    width:40%;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.searchBox input{
+    padding: 10px 40px;
+    border-radius: 3px;
+    border: none;
+    box-shadow: 0 0 3px 0 gray;
+    font-size: 1.5vw;
+}
+
+.searchBox button{
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 3px;
+    border: none;
+    box-shadow: 0 0 3px 0 gray;
+    font-size: 1.5vw;
+}
+
+.recipes{
+    width:60%;
+    margin: 50px auto 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+    
